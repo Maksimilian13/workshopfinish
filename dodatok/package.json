@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "compile-scss": "sass src/main.scss public/styles.css"
+    "compile-scss": "sass src/main.scss src/style/styles.css"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.6",
