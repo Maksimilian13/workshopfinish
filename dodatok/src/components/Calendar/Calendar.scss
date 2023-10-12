@@ -1,0 +1,16 @@
+.calendar {
+  text-align: center;
+  margin: 20px 0;
+
+  label {
+    font-size: 1.5em;
+  }
+
+  input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 15px;
+    background-color: rgb(197, 231, 220);
+  }
+}

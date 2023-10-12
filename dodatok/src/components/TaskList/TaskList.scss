@@ -1,0 +1,47 @@
+.task-list {
+  margin-top: 20px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  .task-title {
+    cursor: pointer;
+  }
+
+  .edit-task,
+  .move-task {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .move-task input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 15px;
+    background-color: rgb(197, 231, 220);
+    font-size: 1.5em;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+  }
+
+  button {
+    margin: 10px 10px;
+  }
+
+  li {
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: beige;
+  }
+}
